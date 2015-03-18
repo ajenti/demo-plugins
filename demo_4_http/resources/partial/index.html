@@ -1,0 +1,27 @@
+<br/>
+
+<div class="row">
+    <div class="col-sm-4">
+        <input ng:model="a" class="form-control" />
+    </div>
+    <div class="col-sm-4">
+        <input ng:model="b" class="form-control" />
+    </div>
+    <div class="col-sm-4">
+        <div class="btn-group">
+            <a ng:click="run('add')" class="btn btn-default">Add</a>
+            <a ng:click="run('divide')" class="btn btn-default">Divide</a>
+        </div>
+    </div>
+</div>
+
+<br/>
+
+<div>
+    <h3 ng:show="result">
+        = {{result.value}}
+    </h3>
+    <div class="alert alert-info" ng:show="result">
+        <em>Calculated in {{result.time|time:10}}</em>
+    </div>
+</div>

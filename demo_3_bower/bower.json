@@ -1,0 +1,7 @@
+{
+  "name": "plugin",
+  "private": true,
+  "dependencies": {
+    "angular-chart.js": "~0.5.3"
+  }
+}

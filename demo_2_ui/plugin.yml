@@ -1,0 +1,19 @@
+# This file describes the plugin
+name: demo_2_ui
+author: Ajenti project
+email: e@ajenti.org
+url: http://ajenti.org
+version: '0.1'
+title: 'Demo 2 (UI)'
+icon: question
+# dependency on Core is required for UI plugins
+dependencies:
+    - !!python/object:aj.plugins.PluginDependency {
+        plugin_name: core
+    }
+resources:
+    - 'resources/js/module.coffee' # angular module init
+    - 'resources/js/routing.coffee' # ngRoute config
+    - 'resources/js/controllers/index.controller.coffee' # angular contrller
+    - 'resources/partial/index.html' # view template
+    - 'ng:ajenti.demo2' # instructs ajenti to load Angular module 'ajenti.demo2'
