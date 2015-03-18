@@ -1,0 +1,2 @@
+# demo-plugins
+Demo plugins
