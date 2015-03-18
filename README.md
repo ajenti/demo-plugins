@@ -8,8 +8,8 @@ Demo 1: minimal
 
 A super-minimal example of a plugin. Prints an info message to log.
 
-    - [__init__.py](https://github.com/ajenti/demo-plugins/blob/master/demo_1_minimal/__init__.py#L2)
-    - [plugin.yml](https://github.com/ajenti/demo-plugins/blob/master/demo_1_minimal/plugin.yml)
+  - [__init__.py](https://github.com/ajenti/demo-plugins/blob/master/demo_1_minimal/__init__.py#L2)
+  - [plugin.yml](https://github.com/ajenti/demo-plugins/blob/master/demo_1_minimal/plugin.yml)
 
 Demo 2: UI
 ----------
