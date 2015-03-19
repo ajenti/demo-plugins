@@ -40,3 +40,10 @@ Example of how one can add custom backend API methods
   - [API views](https://github.com/ajenti/demo-plugins/blob/master/demo_4_http/views.py)
   - [client code](https://github.com/ajenti/demo-plugins/blob/master/demo_4_http/resources/js/controllers/index.controller.coffee#L8)
 
+Demo 5: Dashboard Widget
+------------------------
+
+  - [widget backend code](https://github.com/ajenti/demo-plugins/blob/master/demo_5_widget/widget.py)
+  - [widget template](https://github.com/ajenti/demo-plugins/blob/master/demo_5_widget/resources/partial/widget.html)
+  - [widget conf dialog template](https://github.com/ajenti/demo-plugins/blob/master/demo_5_widget/resources/partial/widget.config.html)
+  - [controllers](https://github.com/ajenti/demo-plugins/blob/master/demo_5_widget/resources/js/controllers/widget.controller.coffee)
