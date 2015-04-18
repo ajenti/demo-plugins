@@ -3,7 +3,7 @@ import time
 from aj.api import component
 from aj.api.http import url, HttpPlugin
 
-from aj.plugins.core.api.endpoint import endpoint, EndpointError, EndpointReturn
+from aj.api.endpoint import endpoint, EndpointError, EndpointReturn
 
 
 @component(HttpPlugin)
