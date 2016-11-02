@@ -12,8 +12,6 @@ dependencies:
         plugin_name: core
     }
 resources:
-    - 'resources/js/module.coffee' # angular module init
-    - 'resources/js/routing.coffee' # ngRoute config
-    - 'resources/js/controllers/index.controller.coffee' # angular contrller
-    - 'resources/partial/index.html' # view template
+    - 'resources/module.es' # angular module
+    - 'resources/index.html' # view template
     - 'ng:ajenti.demo2' # instructs ajenti to load Angular module 'ajenti.demo2'

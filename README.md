@@ -3,6 +3,20 @@ Ajenti demo plugins
 
 This repository contains simple commented examples of Ajenti plugins.
 
+Quickstart:
+
+```
+git clone https://github.com/ajenti/demo-plugins.git
+cd demo-plugins
+
+sudo npm install -g babel babel-preset-es2015 less bower
+sudo pip install ajenti-panel ajenti-dev-multitool ajenti.plugin.core
+ajenti-dev-multitool --bower install
+ajenti-dev-multitool --build
+
+sudo ajenti-panel -v --autologin --stock-plugins --plugins .
+```
+
 Demo 1: minimal
 ---------------
 
@@ -18,8 +32,8 @@ A minimal UI example showing a page and some Angular.JS interaction
 
   - [dependencies & resources](https://github.com/ajenti/demo-plugins/blob/master/demo_2_ui/plugin.yml#L10)
   - [sidebar item](https://github.com/ajenti/demo-plugins/blob/master/demo_2_ui/main.py#L6)
-  - [JS code](https://github.com/ajenti/demo-plugins/tree/master/demo_2_ui/resources/js)
-  - [view template](https://github.com/ajenti/demo-plugins/blob/master/demo_2_ui/resources/partial/index.html)
+  - [JS code](https://github.com/ajenti/demo-plugins/blob/master/demo_2_ui/resources/module.es)
+  - [view template](https://github.com/ajenti/demo-plugins/blob/master/demo_2_ui/resources/index.html)
 
 Demo 3: Bower
 -------------
