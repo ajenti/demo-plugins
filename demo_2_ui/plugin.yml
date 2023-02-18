@@ -8,7 +8,7 @@ title: 'Demo 2 (UI)'
 icon: question
 # dependency on Core is required for UI plugins
 dependencies:
-    - !!python/object:aj.plugins.PluginDependency {
+    - !PluginDependency {
         plugin_name: core
     }
 resources:
