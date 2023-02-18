@@ -1,1 +1,1 @@
-import widget
+from .widget import *
