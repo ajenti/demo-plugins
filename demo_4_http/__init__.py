@@ -1,3 +1,3 @@
-import main
+from .main import *
 # note the extra module
-import views
+from .views import *
